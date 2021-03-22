@@ -9,7 +9,7 @@ if len(argv) > 1: inputname = argv[1]
 if len(argv) > 2: cnnname =  argv[2]
 
 with open("input/"+inputname, 'w') as f:
-    num = 2500
+    num = 250
     f.write(str(num)+'\n')
     for x in range(num):
         for i in range(100):
